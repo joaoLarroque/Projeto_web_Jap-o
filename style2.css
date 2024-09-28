@@ -1,0 +1,118 @@
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+
+
+}
+
+.header{
+width: 100%;
+height: 80px;
+display: block;
+background-color: #101010;
+box-shadow: 0px 4px 8px #888888;
+
+}
+
+.inner_header{
+    width: 900px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 2000px;
+
+}
+.logo_container h1 span{
+    font-weight: 800px;
+}
+
+.image{
+    width: 13%;
+    height: 15%;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    align-items: center;
+}
+
+
+.body{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-family: 'Montserrat';
+    background-color: transparent  ;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.body p{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0.8%;
+    text-align: left;
+    font-family: 'Montserrat';
+
+}
+
+.body h2{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    text-align: left;
+}
+
+
+.box{
+    box-shadow: 8px 0 6px -6px #888888,
+    -7px 0px 6px -6px #888888;
+}
+
+.imagem_1{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+
+.div_main_footer{
+padding-top: 5%;
+
+}
+.main_footer{
+    display: flex;
+    justify-content: center;
+    background-color: #101010;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+
+
+.main_footer .action{
+    margin-right: 20px;
+    margin-left: 20px;
+   
+}
+
+
